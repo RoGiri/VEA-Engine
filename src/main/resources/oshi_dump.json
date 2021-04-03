@@ -1,0 +1,1638 @@
+{
+	"hardware": {
+		"computerSystem": {
+			"firmware": {
+				"name": "_ASUS_ - 1072009",
+				"version": "G752VT.213",
+				"manufacturer": "G752VT.213",
+				"description": "2016-01-06",
+				"releaseDate": "American Megatrends Inc."
+			},
+			"baseboard": {
+				"version": "1.0       ",
+				"manufacturer": "ASUSTeK COMPUTER INC.",
+				"model": "unknown",
+				"serialNumber": "BSN12345678901234567"
+			},
+			"serialNumber": "G1N0CY01M648049     ",
+			"manufacturer": "ASUSTeK COMPUTER INC.",
+			"model": "G752VT"
+		},
+		"processor": {
+			"maxFreq": 2592000000,
+			"currentFreq": [2592000000, 2592000000, 2592000000, 2592000000, 2592000000, 2592000000, 2592000000, 2592000000],
+			"contextSwitches": 2437426744,
+			"interrupts": 1728105987,
+			"systemCpuLoadTicks": [191177609, 0, 31679872, 919305234, 0, 450451, 251333, 0],
+			"processorCpuLoadTicks": [[25953015, 0, 3485328, 108341359, 0, 3128187, 1950234, 0], [20158578, 0, 2651703, 119954640, 0, 73796, 19406, 0], [25101859, 0, 3891796, 113778984, 0, 76390, 9093, 0], [20565859, 0, 2604625, 119629921, 0, 52671, 5046, 0], [24466187, 0, 4998140, 113283515, 0, 101140, 9140, 0], [18463625, 0, 2380796, 121955140, 0, 53453, 5109, 0], [22408046, 0, 3772093, 116597218, 0, 72875, 7640, 0], [34060437, 0, 2982890, 105764453, 0, 45093, 5000, 0]],
+			"physicalPackageCount": 1,
+			"physicalProcessorCount": 4,
+			"logicalProcessorCount": 8,
+			"logicalProcessors": [{
+					"processorNumber": 0,
+					"physicalProcessorNumber": 0,
+					"physicalPackageNumber": 0,
+					"numaNode": 0,
+					"processorGroup": 0
+				}, {
+					"processorNumber": 1,
+					"physicalProcessorNumber": 0,
+					"physicalPackageNumber": 0,
+					"numaNode": 0,
+					"processorGroup": 0
+				}, {
+					"processorNumber": 2,
+					"physicalProcessorNumber": 1,
+					"physicalPackageNumber": 0,
+					"numaNode": 0,
+					"processorGroup": 0
+				}, {
+					"processorNumber": 3,
+					"physicalProcessorNumber": 1,
+					"physicalPackageNumber": 0,
+					"numaNode": 0,
+					"processorGroup": 0
+				}, {
+					"processorNumber": 4,
+					"physicalProcessorNumber": 2,
+					"physicalPackageNumber": 0,
+					"numaNode": 0,
+					"processorGroup": 0
+				}, {
+					"processorNumber": 5,
+					"physicalProcessorNumber": 2,
+					"physicalPackageNumber": 0,
+					"numaNode": 0,
+					"processorGroup": 0
+				}, {
+					"processorNumber": 6,
+					"physicalProcessorNumber": 3,
+					"physicalPackageNumber": 0,
+					"numaNode": 0,
+					"processorGroup": 0
+				}, {
+					"processorNumber": 7,
+					"physicalProcessorNumber": 3,
+					"physicalPackageNumber": 0,
+					"numaNode": 0,
+					"processorGroup": 0
+				}
+			],
+			"name": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+			"family": "6",
+			"identifier": "Intel64 Family 6 Model 94 Stepping 3",
+			"processorIdentifier": {
+				"processorID": "BFEBFBFF000506E3",
+				"cpu64bit": true,
+				"name": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+				"family": "6",
+				"identifier": "Intel64 Family 6 Model 94 Stepping 3",
+				"model": "94",
+				"vendorFreq": 2600000000,
+				"stepping": "3",
+				"vendor": "GenuineIntel"
+			},
+			"model": "94",
+			"vendorFreq": 2600000000,
+			"processorID": "BFEBFBFF000506E3",
+			"cpu64bit": true,
+			"stepping": "3",
+			"vendor": "GenuineIntel"
+		},
+		"memory": {
+			"total": 17083482112,
+			"pageSize": 4096,
+			"available": 10028544000,
+			"physicalMemory": [{
+					"bankLabel": "BANK 0",
+					"capacity": 8589934592,
+					"clockSpeed": 2133000000,
+					"manufacturer": "Samsung",
+					"memoryType": "DDR4"
+				}, {
+					"bankLabel": "BANK 2",
+					"capacity": 8589934592,
+					"clockSpeed": 2133000000,
+					"manufacturer": "Samsung",
+					"memoryType": "DDR4"
+				}
+			],
+			"virtualMemory": {
+				"swapTotal": 18253611008,
+				"swapUsed": 37822464,
+				"swapPagesIn": 10721761,
+				"swapPagesOut": 243102
+			}
+		},
+		"sensors": {
+			"cpuTemperature": 0.0,
+			"fanSpeeds": [],
+			"cpuVoltage": 0.0
+		},
+		"powerSources": [{
+				"name": "System Battery",
+				"remainingCapacity": 0.968171454628363,
+				"timeRemaining": -2.0
+			}
+		],
+		"networkIFs": [{
+				"mtu": 1500,
+				"bytesRecv": 0,
+				"bytesSent": 0,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 100000000,
+				"timeStamp": 1571575449329,
+				"name": "eth0",
+				"displayName": "Windscribe VPN",
+				"ipv4addr": [],
+				"macaddr": "00:ff:0e:b7:c2:bb",
+				"ipv6addr": ["fe80:0:0:0:b824:1133:3d4a:56ec"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 0,
+				"bytesSent": 0,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 0,
+				"timeStamp": 1571575449365,
+				"name": "wlan1",
+				"displayName": "Microsoft Wi-Fi Direct Virtual Adapter #2",
+				"ipv4addr": [],
+				"macaddr": "18:5e:0f:ea:1c:db",
+				"ipv6addr": ["fe80:0:0:0:815c:79c2:ad80:4ece"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 0,
+				"bytesSent": 0,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 1073741824,
+				"timeStamp": 1571575449376,
+				"name": "eth4",
+				"displayName": "Spotflux Virtual Network Device Driver #2",
+				"ipv4addr": [],
+				"macaddr": "00:ff:33:52:95:cd",
+				"ipv6addr": ["fe80:0:0:0:711e:a5f1:eef8:6f19"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 2798,
+				"bytesSent": 134602,
+				"packetsRecv": 29,
+				"packetsSent": 1057,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 10000000000,
+				"timeStamp": 1571575449407,
+				"name": "eth5",
+				"displayName": "LogMeIn Hamachi Virtual Ethernet Adapter",
+				"ipv4addr": ["25.66.100.121"],
+				"macaddr": "7a:79:19:42:64:79",
+				"ipv6addr": ["2620:9b:0:0:0:0:1942:6479", "fe80:0:0:0:5105:da1a:f2a8:48d3"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 0,
+				"bytesSent": 0,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 1073741824,
+				"timeStamp": 1571575449419,
+				"name": "eth6",
+				"displayName": "Spotflux Virtual Network Device Driver",
+				"ipv4addr": [],
+				"macaddr": "00:ff:78:65:1f:c8",
+				"ipv6addr": ["fe80:0:0:0:e4d5:3ff7:675a:c615"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 59155768,
+				"bytesSent": 2712412,
+				"packetsRecv": 48963,
+				"packetsSent": 17776,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 86700000,
+				"timeStamp": 1571575449430,
+				"name": "wlan2",
+				"displayName": "Intel(R) Dual Band Wireless-AC 7265",
+				"ipv4addr": ["129.12.235.63"],
+				"macaddr": "18:5e:0f:ea:1c:da",
+				"ipv6addr": ["fe80:0:0:0:ad06:cac:981d:e81f"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 0,
+				"bytesSent": 0,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 3000000,
+				"timeStamp": 1571575449441,
+				"name": "eth7",
+				"displayName": "Bluetooth Device (Personal Area Network)",
+				"ipv4addr": [],
+				"macaddr": "18:5e:0f:ea:1c:de",
+				"ipv6addr": ["fe80:0:0:0:8cc:f6f:8565:901b"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 0,
+				"bytesSent": 0,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 10000000,
+				"timeStamp": 1571575449450,
+				"name": "eth8",
+				"displayName": "Anchorfree HSS VPN Adapter",
+				"ipv4addr": [],
+				"macaddr": "00:ff:8d:ac:ac:e5",
+				"ipv6addr": ["fe80:0:0:0:2ce3:ef7a:31f6:f07a"]
+			}, {
+				"mtu": 1280,
+				"bytesRecv": 456,
+				"bytesSent": 6576,
+				"packetsRecv": 3,
+				"packetsSent": 51,
+				"inErrors": 0,
+				"outErrors": 1,
+				"speed": 100000,
+				"timeStamp": 1571575449465,
+				"name": "net6",
+				"displayName": "Microsoft Teredo Tunneling Adapter",
+				"ipv4addr": [],
+				"macaddr": "00:00:00:00:00:00:00:e0",
+				"ipv6addr": ["2001:0:2851:7ae4:43b:2999:7ef3:14c0", "fe80:0:0:0:43b:2999:7ef3:14c0"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 0,
+				"bytesSent": 0,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 100000000,
+				"timeStamp": 1571575449490,
+				"name": "eth11",
+				"displayName": "TAP-Win32 Adapter V9",
+				"ipv4addr": [],
+				"macaddr": "00:ff:c4:eb:a3:71",
+				"ipv6addr": ["fe80:0:0:0:4187:8871:32ff:7afb"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 0,
+				"bytesSent": 0,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 0,
+				"timeStamp": 1571575449510,
+				"name": "wlan5",
+				"displayName": "Microsoft Wi-Fi Direct Virtual Adapter #3",
+				"ipv4addr": [],
+				"macaddr": "1a:5e:0f:ea:1c:da",
+				"ipv6addr": ["fe80:0:0:0:e092:5923:dfc7:625e"]
+			}, {
+				"mtu": 1500,
+				"bytesRecv": 9243329,
+				"bytesSent": 3560699,
+				"packetsRecv": 0,
+				"packetsSent": 0,
+				"inErrors": 0,
+				"outErrors": 0,
+				"speed": 100000000,
+				"timeStamp": 1571575449523,
+				"name": "eth12",
+				"displayName": "Realtek PCIe GbE Family Controller",
+				"ipv4addr": ["169.254.15.205"],
+				"macaddr": "9c:5c:8e:2a:08:39",
+				"ipv6addr": ["fe80:0:0:0:cd7d:2ecd:da74:fcd"]
+			}
+		],
+		"diskStores": [{
+				"model": "HGST HTS721010A9E630 (Standard disk drives)",
+				"name": "\\\\.\\PHYSICALDRIVE0",
+				"serial": "      JS1000620HLHGT",
+				"size": 1000202273280,
+				"reads": 418404,
+				"readBytes": 16782590976,
+				"writes": 61399,
+				"writeBytes": 1690578944,
+				"currentQueueLength": 0,
+				"transferTime": 4318139,
+				"partitions": [{
+						"identification": "Disk #0, Partition #0",
+						"name": "GPT: Basic Data",
+						"type": "GPT: Basic Data",
+						"uuid": "bc0594c5-d7e1-4c27-8955-2810e4c7ddf4",
+						"size": 1000203091968,
+						"major": 0,
+						"minor": 0,
+						"mountPoint": "D:\\"
+					}
+				],
+				"timeStamp": 1571575449727
+			}, {
+				"model": "SAMSUNG MZVLV128HCGR-00000 (Standard disk drives)",
+				"name": "\\\\.\\PHYSICALDRIVE1",
+				"serial": "S2J4NXAGA22923      _00000001.",
+				"size": 128034708480,
+				"reads": 890107,
+				"readBytes": 23649404928,
+				"writes": 1463042,
+				"writeBytes": 31209251328,
+				"currentQueueLength": 0,
+				"transferTime": 3198547,
+				"partitions": [{
+						"identification": "Disk #1, Partition #0",
+						"name": "GPT: System",
+						"type": "GPT: System",
+						"uuid": "",
+						"size": 272629760,
+						"major": 1,
+						"minor": 0,
+						"mountPoint": ""
+					}, {
+						"identification": "Disk #1, Partition #1",
+						"name": "GPT: Basic Data",
+						"type": "GPT: Basic Data",
+						"uuid": "118d3c7c-da71-4d19-9b1f-2b94ff0768d9",
+						"size": 126853274624,
+						"major": 1,
+						"minor": 1,
+						"mountPoint": "C:\\"
+					}, {
+						"identification": "Disk #1, Partition #2",
+						"name": "GPT: Unknown",
+						"type": "GPT: Unknown",
+						"uuid": "",
+						"size": 891289600,
+						"major": 1,
+						"minor": 2,
+						"mountPoint": ""
+					}
+				],
+				"timeStamp": 1571575449727
+			}
+		],
+		"soundCards": [{
+				"name": "NVIDIA NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+				"codec": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+				"driverVersion": "nvvad64v.sys 4.13.0.0"
+			}, {
+				"name": "NVIDIA Corporation NVIDIA High Definition Audio",
+				"codec": "NVIDIA High Definition Audio",
+				"driverVersion": "nvhda64v.sys 1.3.38.21"
+			}, {
+				"name": "Realtek Semiconductor Corp. Realtek High Definition Audio",
+				"codec": "Realtek High Definition Audio",
+				"driverVersion": "RTKVHD64.sys 6.0.1.8372"
+			}
+		],
+		"displays": [{
+				"edid": "AP///////wAw5GkEAAAAAAAYAQSVJhV4Cgu1o1lVoCcMUFQAAAABAQEBAQEBAQEBAQEBAQEBtEOAoHA4H0AwIDUAftcQAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gBMRyBEaXNwbGF5CiAgAAAA/gBMUDE3M1dGNC1TUEYxAD4="
+			}
+		]
+	},
+	"operatingSystem": {
+		"manufacturer": "Microsoft",
+		"bitness": 64,
+		"elevated": false,
+		"version": {
+			"version": "10",
+			"codeName": "Home",
+			"buildNumber": "17134"
+		},
+		"fileSystem": {
+			"fileStores": [{
+					"name": "Local Fixed Disk (D:)",
+					"volume": "\\\\?\\Volume{bc0594c5-d7e1-4c27-8955-2810e4c7ddf4}\\",
+					"logicalVolume": "",
+					"mount": "D:\\",
+					"description": "Fixed drive",
+					"uuid": "bc0594c5-d7e1-4c27-8955-2810e4c7ddf4",
+					"freeSpace": 667256238080,
+					"usableSpace": 667256238080,
+					"totalSpace": 1000203087872,
+					"freeInodes": 0,
+					"totalInodes": 0,
+					"type": "NTFS"
+				}, {
+					"name": "Local Fixed Disk (C:)",
+					"volume": "\\\\?\\Volume{118d3c7c-da71-4d19-9b1f-2b94ff0768d9}\\",
+					"logicalVolume": "",
+					"mount": "C:\\",
+					"description": "Fixed drive",
+					"uuid": "118d3c7c-da71-4d19-9b1f-2b94ff0768d9",
+					"freeSpace": 13570654208,
+					"usableSpace": 13570654208,
+					"totalSpace": 126853271552,
+					"freeInodes": 0,
+					"totalInodes": 0,
+					"type": "NTFS"
+				}, {
+					"name": "CD-ROM Disc (E:)",
+					"volume": "\\\\?\\Volume{c166340c-e840-11e8-9c9e-806e6f6e6963}\\",
+					"logicalVolume": "",
+					"mount": "E:\\",
+					"description": "CD-ROM",
+					"uuid": "c166340c-e840-11e8-9c9e-806e6f6e6963",
+					"freeSpace": 0,
+					"usableSpace": 0,
+					"totalSpace": 0,
+					"freeInodes": 0,
+					"totalInodes": 0,
+					"type": ""
+				}
+			],
+			"maxFileDescriptors": 16711680,
+			"openFileDescriptors": 95976
+		},
+		"threadCount": 2921,
+		"processId": 8792,
+		"processCount": 232,
+		"systemUptime": 266762,
+		"systemBootTime": 1571308696,
+		"networkParams": {
+			"hostName": "BIGMAN",
+			"domainName": "BIGMAN",
+			"dnsServers": ["8.8.8.8"],
+			"ipv4DefaultGateway": "129.12.232.1",
+			"ipv6DefaultGateway": "2620:9b::1900:1"
+		},
+		"services": [{
+				"name": "Adobe Acrobat Update Service",
+				"processID": 4204,
+				"state": "RUNNING"
+			}, {
+				"name": "Adobe Flash Player Update Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Intel® SGX AESM",
+				"processID": 11004,
+				"state": "RUNNING"
+			}, {
+				"name": "AllJoyn Router Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Application Layer Gateway Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Application Identity",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Application Information",
+				"processID": 8364,
+				"state": "RUNNING"
+			}, {
+				"name": "Apple Mobile Device Service",
+				"processID": 4196,
+				"state": "RUNNING"
+			}, {
+				"name": "App Readiness",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "AppX Deployment Service (AppXSVC)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "ASUS HID Access Service",
+				"processID": 4496,
+				"state": "RUNNING"
+			}, {
+				"name": "ASLDR Service",
+				"processID": 3600,
+				"state": "RUNNING"
+			}, {
+				"name": "ASUS Rog Macro Key Service",
+				"processID": 4540,
+				"state": "RUNNING"
+			}, {
+				"name": "Asus GiftBox Desktop",
+				"processID": 4164,
+				"state": "RUNNING"
+			}, {
+				"name": "ATKGFNEX Service",
+				"processID": 3624,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Audio Endpoint Builder",
+				"processID": 2536,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Audio",
+				"processID": 3020,
+				"state": "RUNNING"
+			}, {
+				"name": "AVG Antivirus",
+				"processID": 3632,
+				"state": "RUNNING"
+			}, {
+				"name": "avgbIDSAgent",
+				"processID": 7800,
+				"state": "RUNNING"
+			}, {
+				"name": "AvgWscReporter",
+				"processID": 2160,
+				"state": "RUNNING"
+			}, {
+				"name": "ActiveX Installer (AxInstSV)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "BitLocker Drive Encryption Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "BattlEye Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Base Filtering Engine",
+				"processID": 1764,
+				"state": "RUNNING"
+			}, {
+				"name": "Background Intelligent Transfer Service",
+				"processID": 620,
+				"state": "RUNNING"
+			}, {
+				"name": "Brave Update Service (brave)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Brave Update Service (bravem)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Background Tasks Infrastructure Service",
+				"processID": 528,
+				"state": "RUNNING"
+			}, {
+				"name": "Bluetooth Audio Gateway Service",
+				"processID": 1896,
+				"state": "RUNNING"
+			}, {
+				"name": "AVCTP service",
+				"processID": 1336,
+				"state": "RUNNING"
+			}, {
+				"name": "Bluetooth Support Service",
+				"processID": 1328,
+				"state": "RUNNING"
+			}, {
+				"name": "Capability Access Manager Service",
+				"processID": 1924,
+				"state": "RUNNING"
+			}, {
+				"name": "Connected Devices Platform Service",
+				"processID": 11912,
+				"state": "RUNNING"
+			}, {
+				"name": "Certificate Propagation",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Microsoft Office Click-to-Run Service",
+				"processID": 4212,
+				"state": "RUNNING"
+			}, {
+				"name": "Client License Service (ClipSVC)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "COM+ System Application",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "CoreMessaging",
+				"processID": 1764,
+				"state": "RUNNING"
+			}, {
+				"name": "Cryptographic Services",
+				"processID": 4272,
+				"state": "RUNNING"
+			}, {
+				"name": "DCOM Server Process Launcher",
+				"processID": 528,
+				"state": "RUNNING"
+			}, {
+				"name": "Optimize drives",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Device Activation Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Device Association Service",
+				"processID": 2036,
+				"state": "RUNNING"
+			}, {
+				"name": "Device Install Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "DevQuery Background Discovery Broker",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "DHCP Client",
+				"processID": 2672,
+				"state": "RUNNING"
+			}, {
+				"name": "Microsoft (R) Diagnostics Hub Standard Collector Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Diagnostic Execution Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Connected User Experiences and Telemetry",
+				"processID": 4308,
+				"state": "RUNNING"
+			}, {
+				"name": "Device Management Enrollment Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "dmwappushsvc",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "DNS Client",
+				"processID": 3124,
+				"state": "RUNNING"
+			}, {
+				"name": "Delivery Optimization",
+				"processID": 4280,
+				"state": "RUNNING"
+			}, {
+				"name": "Wired AutoConfig",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Diagnostic Policy Service",
+				"processID": 4240,
+				"state": "RUNNING"
+			}, {
+				"name": "Device Setup Manager",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Data Sharing Service",
+				"processID": 8900,
+				"state": "RUNNING"
+			}, {
+				"name": "Data Usage",
+				"processID": 3156,
+				"state": "RUNNING"
+			}, {
+				"name": "Extensible Authentication Protocol",
+				"processID": 13108,
+				"state": "RUNNING"
+			}, {
+				"name": "Encrypting File System (EFS)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Embedded Mode",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Enterprise App Management Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Intel(R) Dynamic Platform and Thermal Framework service",
+				"processID": 4612,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Event Log",
+				"processID": 2056,
+				"state": "RUNNING"
+			}, {
+				"name": "COM+ Event System",
+				"processID": 2152,
+				"state": "RUNNING"
+			}, {
+				"name": "Intel(R) PROSet/Wireless Event Log",
+				"processID": 4180,
+				"state": "RUNNING"
+			}, {
+				"name": "Fax",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Function Discovery Provider Host",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Function Discovery Resource Publication",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "File History Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Font Cache Service",
+				"processID": 2544,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Presentation Foundation Font Cache 3.0.0.0",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Camera Frame Server",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "GalaxyCommunication",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Google Chrome Elevation Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Group Policy Client",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "GraphicsPerfSvc",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Google Update Service (gupdate)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Google Update Service (gupdatem)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "LogMeIn Hamachi Tunneling Engine",
+				"processID": 5156,
+				"state": "RUNNING"
+			}, {
+				"name": "Human Interface Device Service",
+				"processID": 1620,
+				"state": "RUNNING"
+			}, {
+				"name": "HV Host Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Intel(R) Optane(TM) Memory Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Intel(R) Rapid Storage Technology",
+				"processID": 4380,
+				"state": "RUNNING"
+			}, {
+				"name": "Intel Bluetooth Service",
+				"processID": 4232,
+				"state": "RUNNING"
+			}, {
+				"name": "Intel(R) Integrated Clock Controller Service - Intel(R) ICCS",
+				"processID": 11764,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Mobile Hotspot Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "IKE and AuthIP IPsec Keying Modules",
+				"processID": 4256,
+				"state": "RUNNING"
+			}, {
+				"name": "Microsoft Store Install Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Intel(R) Capability Licensing Service TCP IP Interface",
+				"processID": 13452,
+				"state": "RUNNING"
+			}, {
+				"name": "Intel(R) Security Assist",
+				"processID": 2856,
+				"state": "RUNNING"
+			}, {
+				"name": "IP Helper",
+				"processID": 5048,
+				"state": "RUNNING"
+			}, {
+				"name": "iPod Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "IP Translation Configuration Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Infrared monitor service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Intel(R) Security Assist Helper",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Intel(R) Dynamic Application Loader Host Interface Service",
+				"processID": 7384,
+				"state": "RUNNING"
+			}, {
+				"name": "CNG Key Isolation",
+				"processID": 848,
+				"state": "RUNNING"
+			}, {
+				"name": "WPS Office Update Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "KtmRm for Distributed Transaction Coordinator",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Server",
+				"processID": 4924,
+				"state": "RUNNING"
+			}, {
+				"name": "Workstation",
+				"processID": 1932,
+				"state": "RUNNING"
+			}, {
+				"name": "Geolocation Service",
+				"processID": 12544,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows License Manager Service",
+				"processID": 9996,
+				"state": "RUNNING"
+			}, {
+				"name": "Link-Layer Topology Discovery Mapper",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "TCP/IP NetBIOS Helper",
+				"processID": 7620,
+				"state": "RUNNING"
+			}, {
+				"name": "LMIGuardianSvc",
+				"processID": 4504,
+				"state": "RUNNING"
+			}, {
+				"name": "Intel(R) Management and Security Application Local Management Service",
+				"processID": 14096,
+				"state": "RUNNING"
+			}, {
+				"name": "Local Session Manager",
+				"processID": 1140,
+				"state": "RUNNING"
+			}, {
+				"name": "Language Experience Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "LXSSMANAGER",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Downloaded Maps Manager",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Mozilla Maintenance Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Defender Firewall",
+				"processID": 1764,
+				"state": "RUNNING"
+			}, {
+				"name": "Distributed Transaction Coordinator",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Microsoft iSCSI Initiator Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Installer",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "MS-MPI Launch Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Wireless PAN DHCP Server",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Natural Authentication",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Network Connectivity Assistant",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Network Connection Broker",
+				"processID": 1488,
+				"state": "RUNNING"
+			}, {
+				"name": "Network Connected Devices Auto-Setup",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Netlogon",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Network Connections",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Network List Service",
+				"processID": 2920,
+				"state": "RUNNING"
+			}, {
+				"name": "Network Setup Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Net.Tcp Port Sharing Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Microsoft Passport Container",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Microsoft Passport",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Network Location Awareness",
+				"processID": 2860,
+				"state": "RUNNING"
+			}, {
+				"name": "Network Store Interface Service",
+				"processID": 1836,
+				"state": "RUNNING"
+			}, {
+				"name": "NVIDIA LocalSystem Container",
+				"processID": 4604,
+				"state": "RUNNING"
+			}, {
+				"name": "NVIDIA NetworkService Container",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "NVIDIA Display Container LS",
+				"processID": 1964,
+				"state": "RUNNING"
+			}, {
+				"name": "NVIDIA Telemetry Container",
+				"processID": 4512,
+				"state": "RUNNING"
+			}, {
+				"name": "Office  Source Engine",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows 10 Update Facilitation Service",
+				"processID": 4284,
+				"state": "RUNNING"
+			}, {
+				"name": "Peer Networking Identity Manager",
+				"processID": 4264,
+				"state": "RUNNING"
+			}, {
+				"name": "Peer Networking Grouping",
+				"processID": 5620,
+				"state": "RUNNING"
+			}, {
+				"name": "Program Compatibility Assistant Service",
+				"processID": 8620,
+				"state": "RUNNING"
+			}, {
+				"name": "Performance Counter DLL Host",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Phone Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Performance Logs & Alerts",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Plug and Play",
+				"processID": 84,
+				"state": "RUNNING"
+			}, {
+				"name": "PNRP Machine Name Publication Service",
+				"processID": 5612,
+				"state": "RUNNING"
+			}, {
+				"name": "Peer Name Resolution Protocol",
+				"processID": 5080,
+				"state": "RUNNING"
+			}, {
+				"name": "IPsec Policy Agent",
+				"processID": 6184,
+				"state": "RUNNING"
+			}, {
+				"name": "Power",
+				"processID": 528,
+				"state": "RUNNING"
+			}, {
+				"name": "Printer Extensions and Notifications",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "User Profile Service",
+				"processID": 2144,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows PushToInstall Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Quality Windows Audio Video Experience",
+				"processID": 2504,
+				"state": "RUNNING"
+			}, {
+				"name": "Remote Access Auto Connection Manager",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Remote Access Connection Manager",
+				"processID": 5416,
+				"state": "RUNNING"
+			}, {
+				"name": "Intel(R) PROSet/Wireless Registry Service",
+				"processID": 4476,
+				"state": "RUNNING"
+			}, {
+				"name": "Routing and Remote Access",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Remote Registry",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Retail Demo Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Radio Management Service",
+				"processID": 8424,
+				"state": "RUNNING"
+			}, {
+				"name": "ROG Gaming Center Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "RPC Endpoint Mapper",
+				"processID": 1092,
+				"state": "RUNNING"
+			}, {
+				"name": "Remote Procedure Call (RPC) Locator",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Remote Procedure Call (RPC)",
+				"processID": 1092,
+				"state": "RUNNING"
+			}, {
+				"name": "RstMwService",
+				"processID": 4532,
+				"state": "RUNNING"
+			}, {
+				"name": "Security Accounts Manager",
+				"processID": 848,
+				"state": "RUNNING"
+			}, {
+				"name": "Smart Card",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Smart Card Device Enumeration Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Task Scheduler",
+				"processID": 2344,
+				"state": "RUNNING"
+			}, {
+				"name": "Smart Card Removal Policy",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Backup",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Spybot-S&D 2 Scanner Service",
+				"processID": 4464,
+				"state": "RUNNING"
+			}, {
+				"name": "Spybot-S&D 2 Updating Service",
+				"processID": 4524,
+				"state": "RUNNING"
+			}, {
+				"name": "Spybot-S&D 2 Security Center Service",
+				"processID": 5172,
+				"state": "RUNNING"
+			}, {
+				"name": "Secondary Logon",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Defender Security Center Service",
+				"processID": 4620,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Remediation Service",
+				"processID": 14112,
+				"state": "RUNNING"
+			}, {
+				"name": "Payments and NFC/SE Manager",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "System Event Notification Service",
+				"processID": 2336,
+				"state": "RUNNING"
+			}, {
+				"name": "Sensor Data Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Sensor Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Sensor Monitoring Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Remote Desktop Configuration",
+				"processID": 1860,
+				"state": "RUNNING"
+			}, {
+				"name": "System Guard Runtime Monitor Broker",
+				"processID": 9632,
+				"state": "RUNNING"
+			}, {
+				"name": "Internet Connection Sharing (ICS)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Spatial Data Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Shell Hardware Detection",
+				"processID": 3580,
+				"state": "RUNNING"
+			}, {
+				"name": "Shared PC Account Manager",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Microsoft Storage Spaces SMP",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Microsoft Windows SMS Router Service.",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "SNMP Trap",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Perception Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Print Spooler",
+				"processID": 3876,
+				"state": "RUNNING"
+			}, {
+				"name": "Software Protection",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "SSDP Discovery",
+				"processID": 3452,
+				"state": "RUNNING"
+			}, {
+				"name": "OpenSSH Authentication Agent",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Secure Socket Tunneling Protocol Service",
+				"processID": 4292,
+				"state": "RUNNING"
+			}, {
+				"name": "State Repository Service",
+				"processID": 3116,
+				"state": "RUNNING"
+			}, {
+				"name": "Steam Client Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Image Acquisition (WIA)",
+				"processID": 4328,
+				"state": "RUNNING"
+			}, {
+				"name": "Storage Service",
+				"processID": 10384,
+				"state": "RUNNING"
+			}, {
+				"name": "Spot Verifier",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Microsoft Software Shadow Copy Provider",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Superfetch",
+				"processID": 2124,
+				"state": "RUNNING"
+			}, {
+				"name": "System Events Broker",
+				"processID": 528,
+				"state": "RUNNING"
+			}, {
+				"name": "Touch Keyboard and Handwriting Panel Service",
+				"processID": 964,
+				"state": "RUNNING"
+			}, {
+				"name": "Telephony",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Remote Desktop Services",
+				"processID": 1300,
+				"state": "RUNNING"
+			}, {
+				"name": "Themes",
+				"processID": 2116,
+				"state": "RUNNING"
+			}, {
+				"name": "Thunderbolt(TM) Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Storage Tiers Management",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Time Broker",
+				"processID": 1496,
+				"state": "RUNNING"
+			}, {
+				"name": "Web Account Manager",
+				"processID": 8748,
+				"state": "RUNNING"
+			}, {
+				"name": "Distributed Link Tracking Client",
+				"processID": 4248,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Modules Installer",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Auto Time Zone Updater",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Remote Desktop Services UserMode Port Redirector",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "UPnP Device Host",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "User Manager",
+				"processID": 2728,
+				"state": "RUNNING"
+			}, {
+				"name": "Update Orchestrator Service",
+				"processID": 11652,
+				"state": "RUNNING"
+			}, {
+				"name": "Volumetric Audio Compositor Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Credential Manager",
+				"processID": 848,
+				"state": "RUNNING"
+			}, {
+				"name": "Virtual Disk",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Hyper-V Guest Service Interface",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Hyper-V Heartbeat Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Hyper-V Data Exchange Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Hyper-V Remote Desktop Virtualization Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Hyper-V Guest Shutdown Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Hyper-V Time Synchronization Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Hyper-V PowerShell Direct Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Hyper-V Volume Shadow Copy Requestor",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Volume Shadow Copy",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Time",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Update Medic Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "WalletService",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Wallpaper Engine Service",
+				"processID": 4944,
+				"state": "RUNNING"
+			}, {
+				"name": "WarpJITSvc",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Block Level Backup Engine Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Biometric Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Connection Manager",
+				"processID": 3132,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Connect Now - Config Registrar",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Diagnostic Service Host",
+				"processID": 5032,
+				"state": "RUNNING"
+			}, {
+				"name": "Diagnostic System Host",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Defender Antivirus Network Inspection Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "WebClient",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Event Collector",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Encryption Provider Host Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Problem Reports and Solutions Control Panel Support",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Error Reporting Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Wi-Fi Direct Services Connection Manager Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Still Image Acquisition Events",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Defender Antivirus Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "WindscribeService",
+				"processID": 4172,
+				"state": "RUNNING"
+			}, {
+				"name": "WinHTTP Web Proxy Auto-Discovery Service",
+				"processID": 3356,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Management Instrumentation",
+				"processID": 4188,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Remote Management (WS-Management)",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Insider Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "WLAN AutoConfig",
+				"processID": 3508,
+				"state": "RUNNING"
+			}, {
+				"name": "Microsoft Account Sign-in Assistant",
+				"processID": 3704,
+				"state": "RUNNING"
+			}, {
+				"name": "Local Profile Assistant Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "WMI Performance Adapter",
+				"processID": 13636,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Media Player Network Sharing Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Work Folders",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Parental Controls",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Portable Device Enumerator Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Windows Push Notifications System Service",
+				"processID": 4156,
+				"state": "RUNNING"
+			}, {
+				"name": "Security Center",
+				"processID": 4316,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Search",
+				"processID": 15764,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Update",
+				"processID": 11652,
+				"state": "RUNNING"
+			}, {
+				"name": "WWAN AutoConfig",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Xbox Game Monitoring",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Xbox Live Auth Manager",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Xbox Live Game Save",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Xbox Accessory Management Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Xbox Live Networking Service",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Intel(R) Extreme Tuning Utility Service",
+				"processID": 4828,
+				"state": "RUNNING"
+			}, {
+				"name": "Intel(R) PROSet/Wireless Zero Configuration Service",
+				"processID": 4552,
+				"state": "RUNNING"
+			}, {
+				"name": "GameDVR and Broadcast User Service_12713037",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Bluetooth User Support Service_12713037",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Connected Devices Platform User Service_12713037",
+				"processID": 6340,
+				"state": "RUNNING"
+			}, {
+				"name": "DevicePicker_12713037",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "DevicesFlow_12713037",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "MessagingService_12713037",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "Sync Host_12713037",
+				"processID": 15760,
+				"state": "RUNNING"
+			}, {
+				"name": "Contact Data_12713037",
+				"processID": 15760,
+				"state": "RUNNING"
+			}, {
+				"name": "PrintWorkflow_12713037",
+				"processID": 0,
+				"state": "STOPPED"
+			}, {
+				"name": "User Data Storage_12713037",
+				"processID": 15760,
+				"state": "RUNNING"
+			}, {
+				"name": "User Data Access_12713037",
+				"processID": 15760,
+				"state": "RUNNING"
+			}, {
+				"name": "Windows Push Notifications User Service_12713037",
+				"processID": 2792,
+				"state": "RUNNING"
+			}
+		],
+		"family": "Windows",
+		"versionInfo": {
+			"version": "10",
+			"codeName": "Home",
+			"buildNumber": "17134"
+		}
+	}
+}
+
+
