@@ -14,10 +14,10 @@ import java.util.Set;
 
 public class engine extends Thread {
 
-    private static final String DB_HOST = "ec2-3-10-56-138.eu-west-2.compute.amazonaws.com";  //127.0.0.1
+    private static final String DB_HOST = "login.compute.amazonaws.com";  //127.0.0.1
     private static final String DB_PORT = "5432";
-    private static final String DB_USER = "********";
-    private static final String DB_PASSWD = "$*******";
+    private static final String DB_USER = "User";
+    private static final String DB_PASSWD = "$Password";
     private static final String DB_NAME = "postgres";
     private static final String DB_URL = "jdbc:postgresql://" + DB_HOST + ":" + DB_PORT + "/" + DB_NAME;
     private JSONObject jsonObj;
